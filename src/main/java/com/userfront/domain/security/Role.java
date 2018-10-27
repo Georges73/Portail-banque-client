@@ -11,7 +11,7 @@ import java.util.Set;
 @Entity
 public class Role {
     @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+ @GeneratedValue(strategy = GenerationType.AUTO)
     private int roleId;
 
     private String name;
