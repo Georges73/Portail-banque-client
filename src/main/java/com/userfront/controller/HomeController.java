@@ -32,10 +32,10 @@ public class HomeController {
 		return "index";
 	}
 	
-	/*@RequestMapping("/index")
+	@RequestMapping("/index")
     public String index() {
         return "index";
-    }*/
+    }
 	
 	@RequestMapping(value = "/signup", method = RequestMethod.GET)
     public String signup(Model model) {
